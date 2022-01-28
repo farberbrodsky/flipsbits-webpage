@@ -1,0 +1,40 @@
+.bit {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    -webkit-appearance: none;
+    color: lime;
+    transition: color 0.15s linear;
+}
+
+.byte {
+    margin: 1px 2px;
+}
+
+#bits {
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: black;
+    color: lime;
+    font-family: sans-serif;
+    font-size: 16pt;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
